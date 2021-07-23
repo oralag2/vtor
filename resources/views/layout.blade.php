@@ -36,6 +36,12 @@
    <h1> @yield('title')</h1>
 
     <main>
+        @if(session('danger'))
+            <div class="alert alert-danger">{{session('danger') }}</div>
+        @endisset
+            @if(session('success'))
+                <div class="alert alert-success">{{session('success') }}</div>
+            @endisset
 
         @yield('content')
 
