@@ -5,7 +5,7 @@
 
 Установить composer
 
-Выбрать себе удобную папку c помощью cd        :)
+Выбрать себе удобную папку c помощью cd        
 
 git clone https://github.com/oralag2/vtor 
 
