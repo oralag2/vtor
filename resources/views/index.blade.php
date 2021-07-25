@@ -1,6 +1,6 @@
-@extends('layout');
+@extends('layout')
 
-@section('title','Users');
+@section('title','Users')
 
 @section('content')
     <a class="btn btn-secondary"  role="button" href="{{route('users.create')}}" >Create user</a>
