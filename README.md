@@ -1,12 +1,24 @@
 ### Запуск
 Установить PHP-7.3+
+
 Установить MySQL 
+
 Установить composer
+
 Выбрать себе удобную папку cd project
-Cверится с название дб в .env и создать ее в MySQL или в phpMyAdmin
 
-php artisan migrate --seed
+git clone https://github.com/oralag2/vtor rtov
 
-php artisan serve
+cd rtov
 
-Или запустить через оупенсервер положив проект и openserver/domains
+composer install (если ошибка то composer install --ignore-platform-reqs или composer update --ignore-platform-reqs)
+
+Добавить бд в phpmyadmin или в другом приколе) 
+
+Добавить App_Key команлрй php artisan key:generate
+
+php artisan migrate --seed перенести бд
+
+php artisan serve запустить сервер
+
+Или запустить через оупенсервер положив проект и openserver/domains(в доменах указать имя домена и в пути папку public)
