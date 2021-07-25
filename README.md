@@ -7,13 +7,13 @@
 
 Выбрать себе удобную папку cd project
 
-git clone https://github.com/oralag2/vtor rtov
+git clone https://github.com/oralag2/vtor 
 
-cd rtov
+cd vtor
 
-composer install (если ошибка то composer install --ignore-platform-reqs или composer update --ignore-platform-reqs)
+composer install (если ошибка то composer install --ignore-platform-reqs и composer update --ignore-platform-reqs)
 
-Добавить бд в phpmyadmin или в другом приколе) 
+Добавить бд в phpmyadmin или в другом приколе) (или оно создаст бд laravel)
 
 Добавить App_Key команлрй php artisan key:generate
 
