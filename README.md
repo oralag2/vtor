@@ -13,7 +13,7 @@ cd vtor
 
 composer install (если ошибка то composer install --ignore-platform-reqs и composer update --ignore-platform-reqs)
 
-Добавить бд в phpmyadmin или в другом приколе) (или оно создаст бд laravel)
+Добавить бд в phpmyadmin или в другом приложении (или оно создаст бд laravel)
 
 Добавить App_Key командой php artisan key:generate
 
