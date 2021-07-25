@@ -15,7 +15,7 @@ composer install (если ошибка то composer install --ignore-platform-
 
 Добавить бд в phpmyadmin или в другом приколе) (или оно создаст бд laravel)
 
-Добавить App_Key команлрй php artisan key:generate
+Добавить App_Key командой php artisan key:generate
 
 php artisan migrate --seed перенести бд
 
