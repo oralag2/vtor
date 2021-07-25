@@ -19,6 +19,8 @@ composer install (если ошибка то composer install --ignore-platform-
 
 php artisan migrate --seed перенести бд
 
+php artisan db:seed  сгенерирует 35 пользователей
+
 php artisan serve запустить сервер
 
 Или запустить через оупенсервер положив проект и openserver/domains(в доменах указать имя домена и в пути папку public)
