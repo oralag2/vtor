@@ -1,8 +1,8 @@
 ### Запуск
-1.Закинуть папку в openserver/domains
-git clone ... folder
-cd folder
-
+Установить PHP-7.3+
+Установить MySQL 
+Установить composer
+Выбрать себе удобную папку cd project
 Cверится с название дб в .env и создать ее в MySQL или в phpMyAdmin
 
 php artisan migrate --seed
