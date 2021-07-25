@@ -1,6 +1,6 @@
-@extends('layout');
+@extends('layout')
 
-@section('title','User' .$user->name);
+@section('title','User' .$user->name)
 
 @section('content')
     <div class="row">
